@@ -1,0 +1,25 @@
+{
+  "name": "verification.js",
+  "version": "1.0.0",
+  "description": "Verification system Discord to Roblox",
+  "main": "verification.js",
+  "scripts": {
+    "test": "npm sart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoldenJayz/Roblox-Verification.git"
+  },
+  "keywords": [
+    "noblox",
+    "javascript",
+    "roblox",
+    "discord"
+  ],
+  "author": "Gold#1337",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoldenJayz/Roblox-Verification/issues"
+  },
+  "homepage": "https://github.com/GoldenJayz/Roblox-Verification#readme"
+}
