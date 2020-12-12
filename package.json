@@ -4,7 +4,7 @@
   "description": "Verification system Discord to Roblox",
   "main": "verification.js",
   "scripts": {
-    "test": "npm sart"
+    "test": "npm start"
   },
   "repository": {
     "type": "git",
