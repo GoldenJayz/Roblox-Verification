@@ -5,7 +5,7 @@ const client = new discord.Client();
 
 
 
-let prefix = "v!"; //set this to whatever u want
+let prefix = "!"; //set this to whatever u want
 
 
 client.on('ready', () => {
@@ -45,7 +45,7 @@ client.on('message', msg => {
                 .setTitle(`Verify ${args[0]}`)
                 .setAuthor(msg.author.tag, msg.author.avatarURL())
                 .setTimestamp()
-                .setFooter("Please say done, when done verifying!")
+                .setFooter("Please say done, when done verifying! ")
                 .addField("Display this as your status:", "```" + bruh + "```");
             msg.channel.send(embed)
 
@@ -72,11 +72,11 @@ client.on('message', msg => {
                                     if(data.status == bruh) {
                                         //if the status is equivalent to the one given by the bot then message verified
                                         console.log(data.status);
-                                        msg.channel.send("Verified!");
+                                        msg.channel.send("Verified correctly! You may continue.");
                                     } else {
                                         //if not then write it doesnt match inside the terminal
                                         console.log(bruh);
-                                        console.log("The status does not match!");
+                                        console.log("The status does not match! Please try again.");
                                     }
                                 })                           
                             }
